@@ -1,2 +1,2 @@
 # freecodecamp-basicJavascriptCourse
- javascript course free code camp
+this is my daily practice for javascript in freecode camp javsscript course
