@@ -1,13 +1,7 @@
 
-
+//function using recursion which takes the sum of all numbers from 1
 function sumRange (n){
-    if(n < 1){
-        return 0;
-    }else{
-        let sum = sumRange(n-1);
-        return sum + n;
-    }
-
+    return n < 1 ? 0 : n + sumRange(n-1);
 }
 
 console.log(sumRange(5));
